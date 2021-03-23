@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-23T10:07:04 IST" name="Default suite" finished-at="2021-03-23T10:08:36 IST" duration-ms="92347">
+    <groups>
+      <group name="Regression">
+        <method signature="ExecuteTest.navigatingCarInsurance()[pri:3, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingCarInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.navigatingHealthInsurance()[pri:5, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingHealthInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.navigatingTravelInsurance()[pri:1, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingTravelInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="ExecuteTest.executingCarInsurance()[pri:4, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="executingCarInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.executingHealthInsurance()[pri:6, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="executingHealthInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.executingTravelInsurance()[pri:2, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="executingTravelInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.navigatingCarInsurance()[pri:3, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingCarInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.navigatingHealthInsurance()[pri:5, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingHealthInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+        <method signature="ExecuteTest.navigatingTravelInsurance()[pri:1, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" name="navigatingTravelInsurance" class="com.policybazaar.executetest.ExecuteTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-03-23T10:07:04 IST" name="Default test" finished-at="2021-03-23T10:08:36 IST" duration-ms="92347">
+      <class name="com.policybazaar.executetest.ExecuteTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:06:11 IST" name="setup" finished-at="2021-03-23T10:07:04 IST" duration-ms="52533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigatingTravelInsurance()[pri:1, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:07:04 IST" name="navigatingTravelInsurance" finished-at="2021-03-23T10:07:18 IST" duration-ms="14691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingTravelInsurance -->
+        <test-method signature="executingTravelInsurance()[pri:2, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:07:18 IST" name="executingTravelInsurance" finished-at="2021-03-23T10:07:31 IST" duration-ms="13029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingTravelInsurance -->
+        <test-method signature="navigatingCarInsurance()[pri:3, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:07:31 IST" name="navigatingCarInsurance" finished-at="2021-03-23T10:08:14 IST" duration-ms="42288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingCarInsurance -->
+        <test-method signature="executingCarInsurance()[pri:4, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:08:14 IST" name="executingCarInsurance" finished-at="2021-03-23T10:08:16 IST" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingCarInsurance -->
+        <test-method signature="navigatingHealthInsurance()[pri:5, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:08:16 IST" name="navigatingHealthInsurance" finished-at="2021-03-23T10:08:20 IST" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingHealthInsurance -->
+        <test-method signature="executingHealthInsurance()[pri:6, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:08:20 IST" name="executingHealthInsurance" finished-at="2021-03-23T10:08:36 IST" duration-ms="15450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executingHealthInsurance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.policybazaar.executetest.ExecuteTest@1df8da7a]" started-at="2021-03-23T10:08:36 IST" name="tearDown" finished-at="2021-03-23T10:08:36 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.policybazaar.executetest.ExecuteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
